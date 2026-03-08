@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rishwebb/store-v2.0/main/assets/preview-hero.png" alt="Prismon Boutique Hero" width="100%" style="border-radius: 12px; margin-bottom: 24px;" />
-
 # ✦ PRISMON BOUTIQUE ✦
 
 **A premium, editorial-style e-commerce storefront built entirely with vanilla technologies.**
