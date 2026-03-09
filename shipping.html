@@ -1,65 +1,255 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shipping & Returns — PRISMON</title>
-<meta name="description" content="Prismon Black shipping and returns policy. Free shipping on all orders, hassle-free 30-day returns.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◼</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>tailwind.config={theme:{extend:{colors:{accent:{DEFAULT:'#9370DB',dark:'#7B5EB8',light:'#B8A4E3',pale:'#F5F0FF'}},fontFamily:{serif:['"Playfair Display"','Georgia','serif'],sans:['Inter','system-ui','sans-serif']}}}}</script>
-<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping & Returns — PRISMON</title>
+    <meta name="description"
+        content="Prismon Black shipping and returns policy. Free shipping on all orders, hassle-free 30-day returns.">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◼</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { accent: { DEFAULT: '#9370DB', dark: '#7B5EB8', light: '#B8A4E3', pale: '#F5F0FF' } }, fontFamily: { serif: ['"Playfair Display"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] } } } }</script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body class="bg-white text-gray-800 font-sans antialiased min-h-screen">
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="h-16 flex items-center justify-between">
-<a href="index.html" class="group"><h1 class="text-2xl sm:text-3xl font-serif text-gray-900 tracking-tight"><span class="font-extralight text-accent">P</span>R<span class="font-bold text-accent">I</span>SMON</h1></a>
-<div class="flex items-center gap-5 sm:gap-8">
-<a href="index.html" class="nav-link text-xs font-medium uppercase tracking-[.2em] text-gray-400 hover:text-accent transition-colors duration-300" data-nav="home">Home</a>
-<a href="index.html#catalog" class="nav-link text-xs font-medium uppercase tracking-[.2em] text-gray-400 hover:text-accent transition-colors duration-300" data-nav="catalog">Collection</a>
-<button id="cart-toggle" class="relative p-2 rounded-xl hover:bg-gray-50 transition-all duration-300 group" aria-label="Open cart">
-<svg class="w-5 h-5 text-gray-400 group-hover:text-accent transition-colors" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/></svg>
-<span id="cart-badge" class="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] bg-accent rounded-full text-[10px] font-bold text-white items-center justify-center px-1 hidden">0</span>
-</button></div></div></div></nav>
-<main class="pt-16">
-<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-<div class="text-center mb-16">
-<p class="text-accent text-xs font-semibold tracking-[.3em] uppercase mb-3">Customer Care</p>
-<h1 class="font-serif text-4xl sm:text-5xl font-bold text-gray-900">Shipping & Returns</h1>
-<p class="text-gray-400 mt-4 text-sm">Everything you need to know about getting your order to your door — and what to do if something isn't right.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-<div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center"><div class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">📦</div><h3 class="text-sm font-bold text-gray-900">Free Standard Shipping</h3><p class="text-gray-400 text-xs mt-1">3–5 business days, always free</p></div>
-<div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center"><div class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">⚡</div><h3 class="text-sm font-bold text-gray-900">Express Shipping</h3><p class="text-gray-400 text-xs mt-1">1–2 business days for $12</p></div>
-<div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center"><div class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">🔄</div><h3 class="text-sm font-bold text-gray-900">30-Day Returns</h3><p class="text-gray-400 text-xs mt-1">Hassle-free on unopened items</p></div>
-<div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center"><div class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">💳</div><h3 class="text-sm font-bold text-gray-900">Fast Refunds</h3><p class="text-gray-400 text-xs mt-1">Processed within 5–10 business days</p></div>
-</div>
-<div class="prose-content space-y-8">
-<div><h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Shipping Policy</h2><p class="text-gray-500 leading-relaxed">We offer complimentary standard shipping on every order, with no minimum purchase required. Standard delivery typically arrives within 3–5 business days from the date of dispatch. For those who need their products sooner, we offer Express Shipping for a flat rate of $12, with delivery in 1–2 business days.</p><p class="text-gray-500 leading-relaxed mt-3">All orders are carefully packaged in eco-friendly, recyclable materials to ensure your products arrive in perfect condition. You will receive a shipping confirmation email with tracking information as soon as your order is dispatched.</p></div>
-<div><h2 class="font-serif text-xl font-bold text-gray-900 mb-3">International Shipping</h2><p class="text-gray-500 leading-relaxed">We currently ship to the United States, Canada, the United Kingdom, and select EU countries. International shipping rates and delivery times vary by destination. Customs duties and import taxes, if applicable, are the responsibility of the customer.</p></div>
-<div><h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Returns & Exchanges</h2><p class="text-gray-500 leading-relaxed">We want you to love every product. If for any reason you are not completely satisfied, we offer a 30-day return policy on all unopened and unused products in their original packaging. To initiate a return, please email us at <span class="text-accent">hello@prismonblack.com</span> with your order number.</p><p class="text-gray-500 leading-relaxed mt-3">Once we receive and inspect your return, a full refund will be processed to your original payment method within 5–10 business days. Please note that we cannot accept returns on opened or used products for hygiene reasons.</p></div>
-<div><h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Damaged or Incorrect Items</h2><p class="text-gray-500 leading-relaxed">If your order arrives damaged or you receive an incorrect item, please contact us within 48 hours of delivery at <span class="text-accent">hello@prismonblack.com</span>. Include photos of the damaged product and packaging, and we will arrange a free replacement or full refund immediately.</p></div>
-</div>
-</section>
-</main>
-<footer class="bg-gray-50 border-t border-gray-100 mt-20"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"><div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
-<div><h4 class="font-serif font-bold text-gray-900 mb-4">About Us</h4><p class="text-gray-400 text-sm leading-relaxed">Prismon Black is a curated boutique for premium self-care and skincare. We believe in the ritual of beauty.</p><a href="about.html" class="text-accent text-sm mt-3 inline-block hover:underline transition-colors">Learn More &rarr;</a></div>
-<div><h4 class="font-serif font-bold text-gray-900 mb-4">Customer Care</h4><ul class="space-y-2.5"><li><a href="shipping.html" class="text-gray-400 text-sm hover:text-accent transition-colors">Shipping &amp; Returns</a></li><li><a href="contact.html" class="text-gray-400 text-sm hover:text-accent transition-colors">Contact Us</a></li><li><a href="faqs.html" class="text-gray-400 text-sm hover:text-accent transition-colors">FAQs</a></li></ul></div>
-<div><h4 class="font-serif font-bold text-gray-900 mb-4">Follow Us</h4><ul class="space-y-2.5"><li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg><a href="https://www.instagram.com/erro_rcodee" target="_blank" class="text-gray-400 text-sm hover:text-accent transition-colors">Instagram</a></li><li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg><a href="https://www.youtube.com/@Bingxxo" target="_blank" class="text-gray-400 text-sm hover:text-accent transition-colors">YouTube</a></li><li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg><a href="https://portfolio-rishav.pages.dev/" target="_blank" class="text-gray-400 text-sm hover:text-accent transition-colors">Portfolio</a></li></ul></div>
-<div><h4 class="font-serif font-bold text-gray-900 mb-4">Legal</h4><ul class="space-y-2.5"><li><a href="privacy.html" class="text-gray-400 text-sm hover:text-accent transition-colors">Privacy Policy</a></li><li><a href="terms.html" class="text-gray-400 text-sm hover:text-accent transition-colors">Terms of Service</a></li></ul></div>
-</div><div class="border-t border-gray-200 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"><span class="font-serif text-sm font-bold text-gray-900 tracking-tight"><span class="font-extralight text-accent">P</span>R<span class="font-bold text-accent">I</span>SMON</span><p class="text-gray-400 text-xs tracking-wider">&copy; 2026 Prismon Black. All rights reserved.</p></div></div></footer>
-<div id="cart-overlay" class="fixed inset-0 bg-black/30 z-[60] opacity-0 pointer-events-none transition-opacity duration-500"></div>
-<aside id="cart-drawer" class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-white shadow-2xl z-[70] translate-x-full cart-t flex flex-col"><div id="cart-content" class="flex flex-col h-full"></div></aside>
-<div id="product-modal" class="fixed inset-0 z-[80] hidden"><div class="absolute inset-0 bg-black/40" id="modal-overlay"></div><div class="relative h-full flex items-center justify-center p-4"><div id="modal-content" class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto scale-in shadow-2xl"></div></div></div>
-<div id="toast-container" class="fixed bottom-6 left-6 z-[100] flex flex-col gap-3"></div>
-<div id="chat-widget" class="fixed bottom-6 right-6 z-[90] flex flex-col items-end gap-3">
-<div id="chat-window" class="hidden w-[340px] sm:w-[380px] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex-col chat-up" style="height:440px">
-<div class="bg-accent px-5 py-4"><div class="flex items-center justify-between"><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white text-sm font-bold font-serif">P</div><div><p class="text-white text-sm font-semibold">Prismon Black</p><p class="text-white/70 text-xs">Usually replies instantly</p></div></div><button onclick="Chatbot.toggle()" class="text-white/60 hover:text-white transition-colors"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div></div>
-<div id="chat-messages" class="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50/50"></div>
-<div class="p-3 border-t border-gray-100 bg-white"><form onsubmit="event.preventDefault();Chatbot.send()" class="flex gap-2"><input type="text" id="chat-input" class="flex-1 bg-gray-50 border border-gray-200 rounded-full px-4 py-2.5 text-sm text-gray-800" placeholder="Ask us anything..."><button type="submit" class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-accent-dark transition-colors shrink-0"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m-7.5-7.5L19.5 12l-7.5 7.5"/></svg></button></form></div>
-</div>
-<button onclick="Chatbot.toggle()" id="chat-bubble" class="w-14 h-14 rounded-full bg-accent shadow-lg flex items-center justify-center text-white hover:scale-105 hover:shadow-xl transition-all"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3a49.5 49.5 0 01-4.02-.163 2.115 2.115 0 01-1.23-.49m7.75-9.086a23.6 23.6 0 00-7.75-1.297c-2.66 0-5.21.44-7.6 1.25C1.87 7.848 1 8.694 1 9.672v4.286c0 1.136.847 2.1 1.98 2.193.202.016.404.03.607.042.14.008.28.017.42.024l3.243 3.243a.75.75 0 001.28-.53v-2.564"/></svg></button>
-</div>
-<script src="js/main.js" defer></script>
-</body></html>
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="h-16 flex items-center justify-between">
+                <a href="index.html" class="group">
+                    <h1 class="text-2xl sm:text-3xl font-serif text-gray-900 tracking-tight"><span
+                            class="font-extralight text-accent">P</span>R<span
+                            class="font-bold text-accent">I</span>SMON</h1>
+                </a>
+                <div class="flex items-center gap-5 sm:gap-8">
+                    <a href="index.html"
+                        class="nav-link text-xs font-medium uppercase tracking-[.2em] text-gray-400 hover:text-accent transition-colors duration-300"
+                        data-nav="home">Home</a>
+                    <a href="index.html#catalog"
+                        class="nav-link text-xs font-medium uppercase tracking-[.2em] text-gray-400 hover:text-accent transition-colors duration-300"
+                        data-nav="catalog">Collection</a>
+                    <button id="cart-toggle"
+                        class="relative p-2 rounded-xl hover:bg-gray-50 transition-all duration-300 group"
+                        aria-label="Open cart">
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-accent transition-colors" fill="none"
+                            stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        <span id="cart-badge"
+                            class="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] bg-accent rounded-full text-[10px] font-bold text-white items-center justify-center px-1 hidden">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-16">
+        <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+            <div class="text-center mb-16">
+                <p class="text-accent text-xs font-semibold tracking-[.3em] uppercase mb-3">Customer Care</p>
+                <h1 class="font-serif text-4xl sm:text-5xl font-bold text-gray-900">Shipping & Returns</h1>
+                <p class="text-gray-400 mt-4 text-sm">Everything you need to know about getting your order to your door
+                    — and what to do if something isn't right.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center">
+                    <div
+                        class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">
+                        📦</div>
+                    <h3 class="text-sm font-bold text-gray-900">Free Standard Shipping</h3>
+                    <p class="text-gray-400 text-xs mt-1">3–5 business days, always free</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center">
+                    <div
+                        class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">
+                        ⚡</div>
+                    <h3 class="text-sm font-bold text-gray-900">Express Shipping</h3>
+                    <p class="text-gray-400 text-xs mt-1">1–2 business days for $12</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center">
+                    <div
+                        class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">
+                        🔄</div>
+                    <h3 class="text-sm font-bold text-gray-900">30-Day Returns</h3>
+                    <p class="text-gray-400 text-xs mt-1">Hassle-free on unopened items</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 text-center">
+                    <div
+                        class="w-10 h-10 mx-auto rounded-xl bg-accent-pale flex items-center justify-center text-accent text-lg mb-3">
+                        💳</div>
+                    <h3 class="text-sm font-bold text-gray-900">Fast Refunds</h3>
+                    <p class="text-gray-400 text-xs mt-1">Processed within 5–10 business days</p>
+                </div>
+            </div>
+            <div class="prose-content space-y-8">
+                <div>
+                    <h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Shipping Policy</h2>
+                    <p class="text-gray-500 leading-relaxed">We offer complimentary standard shipping on every order,
+                        with no minimum purchase required. Standard delivery typically arrives within 3–5 business days
+                        from the date of dispatch. For those who need their products sooner, we offer Express Shipping
+                        for a flat rate of $12, with delivery in 1–2 business days.</p>
+                    <p class="text-gray-500 leading-relaxed mt-3">All orders are carefully packaged in eco-friendly,
+                        recyclable materials to ensure your products arrive in perfect condition. You will receive a
+                        shipping confirmation email with tracking information as soon as your order is dispatched.</p>
+                </div>
+                <div>
+                    <h2 class="font-serif text-xl font-bold text-gray-900 mb-3">International Shipping</h2>
+                    <p class="text-gray-500 leading-relaxed">We currently ship to the United States, Canada, the United
+                        Kingdom, and select EU countries. International shipping rates and delivery times vary by
+                        destination. Customs duties and import taxes, if applicable, are the responsibility of the
+                        customer.</p>
+                </div>
+                <div>
+                    <h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Returns & Exchanges</h2>
+                    <p class="text-gray-500 leading-relaxed">We want you to love every product. If for any reason you
+                        are not completely satisfied, we offer a 30-day return policy on all unopened and unused
+                        products in their original packaging. To initiate a return, please email us at <span
+                            class="text-accent">hello@prismonblack.com</span> with your order number.</p>
+                    <p class="text-gray-500 leading-relaxed mt-3">Once we receive and inspect your return, a full refund
+                        will be processed to your original payment method within 5–10 business days. Please note that we
+                        cannot accept returns on opened or used products for hygiene reasons.</p>
+                </div>
+                <div>
+                    <h2 class="font-serif text-xl font-bold text-gray-900 mb-3">Damaged or Incorrect Items</h2>
+                    <p class="text-gray-500 leading-relaxed">If your order arrives damaged or you receive an incorrect
+                        item, please contact us within 48 hours of delivery at <span
+                            class="text-accent">hello@prismonblack.com</span>. Include photos of the damaged product and
+                        packaging, and we will arrange a free replacement or full refund immediately.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-50 border-t border-gray-100 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+                <div>
+                    <h4 class="font-serif font-bold text-gray-900 mb-4">About Us</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">Prismon Black is a curated boutique for premium
+                        self-care and skincare. We believe in the ritual of beauty.</p><a href="about.html"
+                        class="text-accent text-sm mt-3 inline-block hover:underline transition-colors">Learn More
+                        &rarr;</a>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-gray-900 mb-4">Customer Care</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="shipping.html"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">Shipping &amp;
+                                Returns</a></li>
+                        <li><a href="contact.html"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">Contact Us</a></li>
+                        <li><a href="faqs.html"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">FAQs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-gray-900 mb-4">Follow Us</h4>
+                    <ul class="space-y-2.5">
+                        <li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="none"
+                                stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <rect x="2" y="2" width="20" height="20" rx="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg><a href="https://www.instagram.com/erro_rcodee" target="_blank"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">Instagram</a></li>
+                        <li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg><a href="https://www.youtube.com/@Bingxxo" target="_blank"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">YouTube</a></li>
+                        <li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-gray-400" fill="none"
+                                stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                            </svg><a href="https://portfolio-rishav.pages.dev/" target="_blank"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold text-gray-900 mb-4">Legal</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="privacy.html"
+                                class="text-gray-400 text-sm hover:text-accent transition-colors">Privacy Policy</a>
+                        </li>
+                        <li><a href="terms.html" class="text-gray-400 text-sm hover:text-accent transition-colors">Terms
+                                of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-t border-gray-200 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <span class="font-serif text-sm font-bold text-gray-900 tracking-tight"><span
+                        class="font-extralight text-accent">P</span>R<span
+                        class="font-bold text-accent">I</span>SMON</span>
+                <p class="text-gray-400 text-xs tracking-wider">&copy; 2026 Prismon Black. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="cart-overlay"
+        class="fixed inset-0 bg-black/30 z-[60] opacity-0 pointer-events-none transition-opacity duration-500"></div>
+    <aside id="cart-drawer"
+        class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-white shadow-2xl z-[70] translate-x-full cart-t flex flex-col">
+        <div id="cart-content" class="flex flex-col h-full"></div>
+    </aside>
+    <div id="product-modal" class="fixed inset-0 z-[80] hidden">
+        <div class="absolute inset-0 bg-black/40" id="modal-overlay"></div>
+        <div class="relative h-full flex items-center justify-center p-4">
+            <div id="modal-content"
+                class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto scale-in shadow-2xl"></div>
+        </div>
+    </div>
+    <div id="toast-container" class="fixed bottom-6 left-6 z-[100] flex flex-col gap-3"></div>
+    <div id="chat-widget" class="fixed bottom-6 right-6 z-[90] flex flex-col items-end gap-3">
+        <div id="chat-window"
+            class="hidden w-[340px] sm:w-[380px] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex-col chat-up"
+            style="height:440px">
+            <div class="bg-accent px-5 py-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white text-sm font-bold font-serif">
+                            P</div>
+                        <div>
+                            <p class="text-white text-sm font-semibold">Prismon Black</p>
+                            <p class="text-white/70 text-xs">Usually replies instantly</p>
+                        </div>
+                    </div><button onclick="Chatbot.toggle()"
+                        class="text-white/60 hover:text-white transition-colors"><svg class="w-5 h-5" fill="none"
+                            stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <line x1="18" y1="6" x2="6" y2="18" />
+                            <line x1="6" y1="6" x2="18" y2="18" />
+                        </svg></button>
+                </div>
+            </div>
+            <div id="chat-messages" class="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50/50"></div>
+            <div class="p-3 border-t border-gray-100 bg-white">
+                <form onsubmit="event.preventDefault();Chatbot.send()" class="flex gap-2"><input type="text"
+                        id="chat-input"
+                        class="flex-1 bg-gray-50 border border-gray-200 rounded-full px-4 py-2.5 text-sm text-gray-800"
+                        placeholder="Ask us anything..."><button type="submit"
+                        class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-accent-dark transition-colors shrink-0"><svg
+                            class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.5 12h15m-7.5-7.5L19.5 12l-7.5 7.5" />
+                        </svg></button></form>
+            </div>
+        </div>
+        <button onclick="Chatbot.toggle()" id="chat-bubble"
+            class="w-14 h-14 rounded-full bg-accent shadow-lg flex items-center justify-center text-white hover:scale-105 hover:shadow-xl transition-all"><svg
+                class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3a49.5 49.5 0 01-4.02-.163 2.115 2.115 0 01-1.23-.49m7.75-9.086a23.6 23.6 0 00-7.75-1.297c-2.66 0-5.21.44-7.6 1.25C1.87 7.848 1 8.694 1 9.672v4.286c0 1.136.847 2.1 1.98 2.193.202.016.404.03.607.042.14.008.28.017.42.024l3.243 3.243a.75.75 0 001.28-.53v-2.564" />
+            </svg></button>
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
